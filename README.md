@@ -1,5 +1,7 @@
-# Customs-ETL-Automation
+# Customs ETL Automation
+
 A practical ETL solution for automating the processing of customs XML declarations and integrating them with shipping data for fast and accurate report generation.
+
 ## 🚀 Problem
 
 Originally, the workflow relied on manually unpacking XML files, copying data into Google Sheets, and using formulas. This approach was slow, unstable for large datasets (~450+ rows), and inefficient — often requiring hours of manual work and a dedicated employee.
@@ -10,6 +12,17 @@ This project automates the entire process by:
 - Parsing XML customs declaration files and storing relevant data into an SQLite database.
 - Matching that data against shipping info from CSV files.
 - Generating an Excel report with matched records, all in under 5 minutes.
+
+## 📈 Impact
+
+This automation reduced the report preparation time from **4–6 hours per report** (manual labor in Google Sheets) to **under 5 minutes**, eliminating the need for a dedicated full-time employee.
+
+Assuming one full-time employee previously spent 68 hours/month on this task 
+⏱️ Time before automation: 68 hours/month
+⚡ Time with this utility: ~2 hours/month
+💸 Net savings: 66 hours/month of manual work eliminated
+💡 I'm proud to have transformed a slow, manual, and fragile process into an elegant Python-based solution.  
+This project demonstrates both technical skills and real-world business impact.
 
 ## 🧠 Skills & Technologies
 
@@ -41,12 +54,10 @@ This project automates the entire process by:
 
 All sensitive data (names, IDs, etc.) has been removed or anonymized. The scripts are safe for demo or test usage.
 
-## 📈 Result
-
-This automation reduced the report preparation time from hours to ~5 minutes per report, replacing a full-time manual task.
-
 ## 🧰 Future Improvements
 
 - Web-based UI
 - Support for SQLCipher encryption
 - Logging & error handling
+
+
