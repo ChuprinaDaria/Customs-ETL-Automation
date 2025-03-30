@@ -1,0 +1,4 @@
+pandas
+fuzzywuzzy
+openpyxl
+python-Levenshtein
