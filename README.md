@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Drew Feig.png" alt="Customs ETL Automation Banner" width="100%" />
+</p>
+
+
 # Customs ETL Automation
 
 A practical ETL solution for automating the processing of customs XML declarations and integrating them with shipping data for fast and accurate report generation.
